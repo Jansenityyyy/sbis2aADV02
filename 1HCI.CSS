@@ -334,23 +334,6 @@ p  { margin-bottom: var(--spacing-sm); }
     margin-bottom: 0;
 }
 
-.hero-scroll {
-    position: absolute;
-    bottom: 2rem; left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: rgba(255,255,255,0.7);
-    font-size: 0.875rem;
-    animation: fadeInUp 1s ease 1.2s both;
-}
-
-.scroll-indicator {
-    width: 2px; height: 40px;
-    background: linear-gradient(to bottom, transparent, var(--color-white), transparent);
-    margin: 0.5rem auto 0;
-    animation: scrollBounce 2s infinite;
-}
-
 /* ===================== BUTTONS ===================== */
 .btn {
     display: inline-block;
